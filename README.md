@@ -16,22 +16,22 @@ Official Step CLI container image optimized for enterprise environments. Include
 
 Download the runtime container images
 ```bash
-docker pull cleanstart/step-cli:latest
-docker pull cleanstart/step-cli:latest-dev
+docker pull ghcr.io/cleanstart-containers/step-cli:latest
+docker pull ghcr.io/cleanstart-containers/step-cli:latest-dev
 ```
 
 ## Interactive Development
 
 Start interactive session for development
 ```bash
-docker run --rm -it --entrypoint /bin/sh cleanstart/step-cli:latest-dev
+docker run --rm -it --entrypoint /bin/sh ghcr.io/cleanstart-containers/step-cli:latest-dev
 ```
 
 ## Container Start
 
 Start the container
 ```bash
-docker run --rm -it --name step-cli-dev cleanstart/step-cli:latest
+docker run --rm -it --name step-cli-dev ghcr.io/cleanstart-containers/step-cli:latest
 ```
 
 ## Best Practices
@@ -44,8 +44,8 @@ docker run --rm -it --name step-cli-dev cleanstart/step-cli:latest
 
 ### Multi-Platform Images
 ```bash
-docker pull --platform linux/amd64 cleanstart/step-cli:latest
-docker pull --platform linux/arm64 cleanstart/step-cli:latest
+docker pull --platform linux/amd64 ghcr.io/cleanstart-containers/step-cli:latest
+docker pull --platform linux/arm64 ghcr.io/cleanstart-containers/step-cli:latest
 ```
 
 ---
