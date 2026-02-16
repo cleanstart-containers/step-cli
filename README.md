@@ -55,7 +55,7 @@ docker pull --platform linux/arm64 ghcr.io/cleanstart-containers/step-cli:latest
 - **Official Documentation:** https://smallstep.com/docs/cli
 - **Provenance / SBOM / Signature:** https://images.cleanstart.com/images/step-cli
 - **Docker Hub:** https://hub.docker.com/r/cleanstart/step-cli
-- **CleanStart All Images:** https://images.cleanstart.com
+- **CleanStart All Images:** https://images.cleanstart.com/images/step-cli/details
 - **CleanStart Community Images:** https://hub.docker.com/u/cleanstart
 
 ### Vulnerability Disclaimer
